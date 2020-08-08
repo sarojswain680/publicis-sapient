@@ -1,0 +1,26 @@
+[
+    {
+        "path": "/404.html",
+        "matchPath": "/404.html"
+    },
+    {
+        "path": "/404/",
+        "matchPath": "/404/"
+    },
+    {
+        "path": "/dev-404-page/",
+        "matchPath": "/dev-404-page/"
+    },
+    {
+        "path": "/groups/",
+        "matchPath": "/groups/"
+    },
+    {
+        "path": "/",
+        "matchPath": "/"
+    },
+    {
+        "path": "/:id",
+        "matchPath": "/*"
+    }
+]
