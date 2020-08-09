@@ -11,7 +11,7 @@ export default class MissionDetailsPage extends React.Component {
                 {
                     this.props.data && this.props.data.map((index) => {
                         return (
-                            <Grid item xs={12} sm={12} md={5} className="marginBottom40 marginRight40">
+                            <Grid item xs={5} sm={5} md={3} className="marginBottom40 marginRight40">
                                 <ReviewCard data={index} />
                             </Grid>
                         )

@@ -52,11 +52,6 @@ export default function CardView(props) {
         title={props.data["mission_name"]}
       />
       <CardHeader
-        avatar={
-          <Avatar aria-label="mission-name" className={classes.avatar}>
-            {props.data["mission_name"].charAt(0)}
-          </Avatar>
-        }
         title={`${props.data["mission_name"]}# ${props.data["flight_number"]}`}
         className="sub-text"
       />

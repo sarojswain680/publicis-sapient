@@ -8,6 +8,10 @@
         "matchPath": "/404/"
     },
     {
+        "path": "/dev-404-page/",
+        "matchPath": "/dev-404-page/"
+    },
+    {
         "path": "/groups/",
         "matchPath": "/groups/"
     },
