@@ -12,6 +12,8 @@ Develop a front-end application which would help users list and browse all launc
 2. [npm](https://npmjs.org/)
 3. [Gatsby](https://www.gatsbyjs.org/docs/quick-start/)
 4. [React](https://reactjs.org/docs/getting-started.html)
+5. [Jest and enzyme](https://jestjs.io/docs/en/tutorial-react)
+
 
 
 ### Getting Started
@@ -21,6 +23,7 @@ Navigate into the cloned repository and use below mentioned command to start the
     npm install
     gatsby develop
     http://localhost:8000
+    npm test - To run the test cases
     
 
 ### Built With
@@ -28,6 +31,7 @@ Navigate into the cloned repository and use below mentioned command to start the
 * [Gatsby](https://www.gatsbyjs.org) - The web framework used
 * [Material-UI](https://material-ui.com/) - Dependency Management
 * [React](https://reactjs.org/docs/getting-started.html) - Front-end framework
+* [Jest and enzyme](https://jestjs.io/docs/en/tutorial-react) - Unit-Testing framework
 * [Firebase]https://console.firebase.google.com/u/0/project/publicis-sapient-55253/settings/general) - Hosting Platform
 
 ### Authors
