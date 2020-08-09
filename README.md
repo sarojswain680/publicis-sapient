@@ -4,7 +4,7 @@ Develop a front-end application which would help users list and browse all launc
 
 ### Application
 
-
+1. [Firebase] (https://publicis-sapient-55253.web.app/)
 
 ### Prerequisites
 
@@ -28,7 +28,7 @@ Navigate into the cloned repository and use below mentioned command to start the
 * [Gatsby](https://www.gatsbyjs.org) - The web framework used
 * [Material-UI](https://material-ui.com/) - Dependency Management
 * [React](https://reactjs.org/docs/getting-started.html) - Front-end framework
-* [Google Cloud Platform](https://www.console.cloud.google.com) - Hosting Platform
+* [Firebase]https://console.firebase.google.com/u/0/project/publicis-sapient-55253/settings/general) - Hosting Platform
 
 ### Authors
 

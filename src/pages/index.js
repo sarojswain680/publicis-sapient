@@ -5,9 +5,9 @@ import { makeStyles } from '@material-ui/core/styles';
 /* importing custom modules*/
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Filter from "../components/CustomModules/Filter"
-import ProductPage from "../components/CustomModules/productpage"
-import Loader from '../components/CustomModules/loader'
+import Filter from "../components/Modules/Filter"
+import MissionPage from "../components/Modules/missionpage"
+import Loader from '../components/Modules/loader'
 
 /* importing css files */
 import '../components/common/common.css';
@@ -37,7 +37,7 @@ export default function IndexPage(props) {
             <Filter toShowLoader={toShowLoader} />
           </Grid>
           <Grid item xs={12} sm={9} md={9}>
-            <ProductPage toShowLoader={toShowLoader} setToShowLoader={setToShowLoader} uri={props.uri} />
+            <MissionPage toShowLoader={toShowLoader} setToShowLoader={setToShowLoader} uri={props.uri} />
           </Grid>
         </Grid>
         <Loader
